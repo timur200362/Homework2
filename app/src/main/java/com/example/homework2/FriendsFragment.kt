@@ -18,7 +18,7 @@ class FriendsFragment:Fragment(R.layout.fragment_friends) {
         with(binding) {
             btnFriends.setOnClickListener {
                 findNavController().navigate(
-                    R.id.action_musicFragment_to_mainFragment,
+                    R.id.action_friendsFragment_to_mainFragment,
                     MainFragment.createBundle(textView5.text.toString())
                 )
             }
