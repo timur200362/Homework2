@@ -22,6 +22,8 @@ class MainFragment:Fragment(R.layout.fragment_main) {
         if (text.isNotEmpty()) {
             Snackbar.make(view, text, Snackbar.LENGTH_LONG).show()
         }
+        val id=arguments?.getString(ARG_TEXT)
+
     }
 
     companion object {
